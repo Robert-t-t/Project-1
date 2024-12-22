@@ -17,7 +17,7 @@ public class GameFrame extends JFrame
         this.setTitle("Wordle");
         this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         this.setSize(420, 600);
-        this.getContentPane().setBackground(Color.darkGray);
+        this.getContentPane().setBackground(new Color(81, 81, 81));
         this.setLayout(new BorderLayout());
 
         // title of the game
@@ -29,19 +29,12 @@ public class GameFrame extends JFrame
         //Input panel
         //Input box and button
         InputPanel panel = new InputPanel();
-        panel.setBackground(Color.PINK);
+        panel.setBackground(new Color(73,73, 73));
         this.add(panel, BorderLayout.SOUTH);
 
 
        this.setVisible(true);
        
-
-
-
-
-
-
-
 
     }
 
